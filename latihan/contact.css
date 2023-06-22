@@ -2,10 +2,10 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    background: lightyellow;
+    
 }
 form {
-    width: 400px;
+    width: 550px;
     margin: 60px auto;
 }
 form div {
@@ -14,7 +14,7 @@ form div {
 }
 label {
     font-weight: bold;
-    color: blue;
+    color: black;
 }
 input, textarea, select {
     width: 100%;

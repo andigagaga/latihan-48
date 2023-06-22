@@ -1,5 +1,5 @@
 body{
-    background: lightyellow;
+    background: orangered;
 }
 .image{
     width: 500px;
@@ -70,4 +70,44 @@ body{
 }
 .download:hover{
     background-color: grey;
+}
+.nav ul li{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    padding: 4px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+a:hover {
+    background-color: orangered;
+}
+.nav-kiri {
+    flex: 50%;
+}
+.nav-kanan {
+    text-align: end;
 }
