@@ -1,0 +1,73 @@
+body{
+    background: lightyellow;
+}
+.image{
+    width: 500px;
+    margin: 10px auto;
+
+}
+.image a{
+    border: 5px solid transparent;
+    width: 500px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.image img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.image a:before {
+    transition: all .6s ease;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333333;
+    transform: scale(0);
+    border-radius: 5px;
+}
+.image a:hover::before{
+    opacity: .2;
+    transform: scale(1);
+}
+.image a::after{
+    transition: all .7s ease .2s;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: red;
+    opacity: 0;
+    transform: scale(0);
+}
+.image a:hover::after{
+    opacity: .35;
+    transform: scale(1);
+    border-radius: 5px;
+}
+.image img{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.desc1:hover{
+    background-color: grey;
+}
+.desc2:hover{
+    background-color: grey;
+}
+.desc3:hover{
+    background-color: grey;
+}
+.icon:hover{
+    background-color: grey;
+}
+.download:hover{
+    background-color: grey;
+}
